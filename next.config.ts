@@ -4,25 +4,9 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'images.unsplash.com',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'plus.unsplash.com',
-        pathname: '/**',
-      },
-      // Adicione outros domínios que você usa
-      {
-        protocol: 'https',
-        hostname: '**.unsplash.com', // Todos subdomínios do Unsplash
+        hostname: '**.unsplash.com',
       },
     ],
-    // Ou use domains (mais simples):
-    domains: ['images.unsplash.com', 'plus.unsplash.com'],
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
