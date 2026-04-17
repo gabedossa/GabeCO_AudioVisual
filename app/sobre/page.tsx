@@ -4,9 +4,24 @@ import Hero from "../src/component/Hero";
 
 export default function Portfolio() {
   const colaboradores = [
-    { img: `/img/Boneco_neve.jpg`, cargo:"Artista Visual e Programador", nome: 'Gabriel Dossa', descricao: 'Artista visual e programador, com atuação em audiovisual, frontend e inteligência artificial aplicada a processos criativos.' },
-    { img: `/img/Boneco_neve.jpg`, cargo:"Produtor e Diretor Audiovisual", nome: 'Aroldo Maciel', descricao: 'Produtor e diretor audiovisual com 25 anos de experiência em cinema, TV e projetos autorais.' },
-    { img: `/img/Boneco_neve.jpg`, cargo:"Musicista, Produtora Musical e Pesquisadora", nome: 'Ana Cecilia dos Santos', descricao: 'Musicista, produtora musical e pesquisadora. Doutora em Comunicação e Semiótica (PUC-SP), com formação em Música e Som para Cinema e TV. Atua na criação de trilhas sonoras, direção de som e produção musical para cinema e audiovisual autoral.' },
+    {
+      img: `/img/Boneco_neve.jpg`,
+      cargo: "Artista Visual e Programador",
+      nome: 'Gabriel Dossa',
+      descricao: 'Para Gabriel, arte e tecnologia nunca foram mundos separados. Designer gráfico, colorista e programador, ele constrói as camadas visuais e digitais que dão vida aos projetos da Gabe — desde a paleta de cores de um documentário até a experiência de quem acessa o site. Acredita que uma boa ideia merece tanto uma boa imagem quanto um bom código.',
+    },
+    {
+      img: `/img/Boneco_neve.jpg`,
+      cargo: "Produtor e Diretor Audiovisual",
+      nome: 'Aroldo Maciel',
+      descricao: 'Produtor e diretor com mais de 25 anos de trajetória no cinema, na televisão e em projetos audiovisuais autorais. Fundador da Gabe Audiovisual, carrega uma visão artística profunda enraizada na cultura do Centro-Oeste brasileiro. Já dirigiu documentários premiados e colaborou com realizadores nacionais e internacionais.',
+    },
+    {
+      img: `/img/Boneco_neve.jpg`,
+      cargo: "Musicista, Produtora Musical e Pesquisadora",
+      nome: 'Ana Cecilia dos Santos',
+      descricao: 'Doutora em Comunicação e Semiótica pela PUC-SP, com formação especializada em Música e Som para Cinema e TV. Atua na criação de trilhas sonoras originais, direção de som e produção musical para cinema e audiovisual autoral. Sua pesquisa une rigor acadêmico e sensibilidade artística na construção de paisagens sonoras únicas.',
+    },
   ]
   return (
     <>
