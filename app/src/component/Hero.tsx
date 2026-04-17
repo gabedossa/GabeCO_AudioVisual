@@ -21,7 +21,7 @@ export default function Hero({ titulo, subtitulo, image }: HeroProps) {
   return (
     <section
       id="home"
-      className="h-120 bg-cover bg-center relative mt-16"
+      className="min-h-[60vh] md:min-h-[75vh] bg-cover bg-center relative mt-16 flex items-center"
       style={{
         width: '100%',
         backgroundImage: `url('${image}')`,
@@ -29,16 +29,14 @@ export default function Hero({ titulo, subtitulo, image }: HeroProps) {
         backgroundPosition: 'center',
       }}
     >
-      <div className="h-full absolute inset-0 bg-black/70"></div>
-      <div className="relative z-10 flex items-center justify-center h-full text-center text-white px-4">
-        <div className="h-60 max-w-4xl items-center justify-center">
-          <h1 className="text-2xl md:text-6xl font-bold mb-6 leading-tight">
+      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="relative z-10 w-full text-center text-white px-4 py-16">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-3xl md:text-6xl font-bold mb-4 leading-tight">
             {titulo}
           </h1>
-          <p className="text-2xl mb-8">
+          <p className="text-base md:text-2xl text-gray-200">
             {subtitulo}
-            Cinema criativo e brasileiro • Música como linguagem
-
           </p>
         </div>
       </div>

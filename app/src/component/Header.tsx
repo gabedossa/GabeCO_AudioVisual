@@ -8,22 +8,12 @@ import { usePathname } from 'next/navigation'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isScrolled, setIsScrolled] = useState(false)
   const pathname = usePathname()
 
   // WhatsApp número formatado
   const whatsappNumber = '5565981722991'
   const whatsappMessage = encodeURIComponent('Olá! Gostaria de fazer um orçamento para um projeto audiovisual.')
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
-
-  // Efeito de scroll para header com background
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10)
-    }
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
 
   // Fechar menu ao mudar de página
   useEffect(() => {
@@ -61,11 +51,7 @@ export default function Header() {
 
   return (
     <header 
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-black/95 backdrop-blur-md shadow-lg py-2' 
-          : 'bg-gradient-to-b from-black/90 to-transparent py-4'
-      }`}
+      className="fixed top-0 w-full z-50 bg-[#0a0a0a] border-b border-white/5 py-3"
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
@@ -131,6 +117,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
+            type="button"
             className="lg:hidden text-white p-2 hover:bg-gray-800/50 rounded-lg transition-colors duration-300"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}

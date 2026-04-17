@@ -26,7 +26,7 @@ export default function About() {
               à sua próxima grande narrativa.
             </p>
           </div>
-          <div className="md:w-1/2 relative h-96">
+          <div className="w-full md:w-1/2 relative h-64 md:h-96">
             <Image
               src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="Equipe de produção"
