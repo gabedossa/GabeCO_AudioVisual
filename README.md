@@ -1,253 +1,223 @@
-<div align="center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #e2e8f0; padding: 40px 20px; border-radius: 20px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);">
-
-  <!-- Cabeçalho Principal -->
-  <h1 style="font-size: 3.5rem; font-weight: 800; background: linear-gradient(90deg, #f59e0b, #fbbf24); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 10px;">
-    🎬 GabeCO Audiovisual
-  </h1>
-  
-  <p style="font-size: 1.2rem; color: #94a3b8; max-width: 800px; margin: 0 auto 30px; line-height: 1.6;">
-    Website oficial desenvolvido com as mais modernas tecnologias web para apresentação do portfólio audiovisual da empresa.
-  </p>
-
-  <!-- Apresentação Pessoal -->
-  <div style="background: rgba(30, 41, 59, 0.7); padding: 25px; border-radius: 15px; margin-bottom: 30px; border-left: 4px solid #f59e0b;">
-    <p style="font-size: 1.4rem; color: #f1f5f9; margin-bottom: 15px;">
-      <strong style="color: #f59e0b;">Hello everyone, I'm Gabriel Vitor dos Santos,</strong> designer and developer 👋
-    </p>
-    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-      <a href="https://vercel.com/gabeco-audiovisual" 
-         style="display: inline-flex; align-items: center; background: linear-gradient(135deg, #000000, #333333); color: white; padding: 12px 24px; border-radius: 10px; text-decoration: none; font-weight: 600; transition: transform 0.3s, box-shadow 0.3s;"
-         onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 10px 25px rgba(0,0,0,0.2)';"
-         onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none';">
-        🚀 GabeCO Projects on Vercel
-      </a>
-      <a href="https://www.codewars.com/users/gabrielvitor/completed_solutions"
-         style="display: inline-flex; align-items: center; background: linear-gradient(135deg, #b1361e, #d93a2b); color: white; padding: 12px 24px; border-radius: 10px; text-decoration: none; font-weight: 600; transition: transform 0.3s, box-shadow 0.3s;"
-         onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 10px 25px rgba(0,0,0,0.2)';"
-         onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none';">
-        ⚔️ Code Wars Challenges
-      </a>
-    </div>
-  </div>
-
-  <!-- Tecnologias -->
-  <div style="margin-bottom: 40px;">
-    <h2 style="color: #f59e0b; font-size: 1.8rem; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 10px;">
-      <span>🛠️</span> Languages & Frameworks
-    </h2>
-    <div style="background: rgba(15, 23, 42, 0.8); padding: 25px; border-radius: 15px;">
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=ts,js,html,css,react,nextjs,tailwind" 
-             style="height: 60px; transition: transform 0.3s;"
-             onmouseover="this.style.transform='scale(1.05)'"
-             onmouseout="this.style.transform='scale(1)'" />
-      </a>
-    </div>
-  </div>
-
-  <!-- Ferramentas -->
-  <div style="margin-bottom: 40px;">
-    <h2 style="color: #3b82f6; font-size: 1.8rem; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 10px;">
-      <span>⚙️</span> Tools & Software
-    </h2>
-    <div style="background: rgba(15, 23, 42, 0.8); padding: 25px; border-radius: 15px;">
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=ps,ai,figma,vscode,git,github,vercel,postman" 
-             style="height: 60px; transition: transform 0.3s;"
-             onmouseover="this.style.transform='scale(1.05)'"
-             onmouseout="this.style.transform='scale(1)'" />
-      </a>
-    </div>
-  </div>
-
-  <!-- Serviços -->
-  <div style="margin-bottom: 40px;">
-    <h2 style="color: #10b981; font-size: 1.8rem; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 10px;">
-      <span>🌐</span> Services & APIs
-    </h2>
-    <div style="background: rgba(15, 23, 42, 0.8); padding: 25px; border-radius: 15px;">
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=emailjs,gmail,cloudinary" 
-             style="height: 60px; transition: transform 0.3s;"
-             onmouseover="this.style.transform='scale(1.05)'"
-             onmouseout="this.style.transform='scale(1)'" />
-      </a>
-    </div>
-  </div>
-
-  <!-- Redes Sociais -->
-  <div style="margin-bottom: 40px;">
-    <h2 style="color: #8b5cf6; font-size: 1.8rem; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 10px;">
-      <span>📱</span> Connect With Me
-    </h2>
-    <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-      <a href="https://www.instagram.com/gaudiovisual" target="_blank">
-        <img loading="lazy" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" 
-             style="transition: transform 0.3s;"
-             onmouseover="this.style.transform='translateY(-3px)'"
-             onmouseout="this.style.transform='translateY(0)'" />
-      </a>
-      <a href="https://www.linkedin.com/in/gabriel-vitor-santos-937a97b9" target="_blank">
-        <img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-             style="transition: transform 0.3s;"
-             onmouseover="this.style.transform='translateY(-3px)'"
-             onmouseout="this.style.transform='translateY(0)'" />
-      </a>
-      <a href="https://github.com/gabrielvitor" target="_blank">
-        <img loading="lazy" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-             style="transition: transform 0.3s;"
-             onmouseover="this.style.transform='translateY(-3px)'"
-             onmouseout="this.style.transform='translateY(0)'" />
-      </a>
-      <a href="mailto:contato@gaudiovisual.com" target="_blank">
-        <img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
-             style="transition: transform 0.3s;"
-             onmouseover="this.style.transform='translateY(-3px)'"
-             onmouseout="this.style.transform='translateY(0)'" />
-      </a>
-    </div>
-  </div>
-
-  <!-- Índice -->
-  <div style="background: rgba(30, 41, 59, 0.7); padding: 25px; border-radius: 15px; margin-bottom: 40px;">
-    <h2 style="color: #f59e0b; font-size: 2rem; margin-bottom: 20px; text-align: center;">📋 Índice</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; text-align: center;">
-      <a href="#funcionalidades" style="color: #60a5fa; text-decoration: none; padding: 12px; background: rgba(96, 165, 250, 0.1); border-radius: 10px; transition: all 0.3s;"
-         onmouseover="this.style.background='rgba(96, 165, 250, 0.2)';this.style.transform='translateY(-3px)'"
-         onmouseout="this.style.background='rgba(96, 165, 250, 0.1)';this.style.transform='translateY(0)'">
-        ✨ Funcionalidades
-      </a>
-      <a href="#stack" style="color: #10b981; text-decoration: none; padding: 12px; background: rgba(16, 185, 129, 0.1); border-radius: 10px; transition: all 0.3s;"
-         onmouseover="this.style.background='rgba(16, 185, 129, 0.2)';this.style.transform='translateY(-3px)'"
-         onmouseout="this.style.background='rgba(16, 185, 129, 0.1)';this.style.transform='translateY(0)'">
-        🚀 Stack Tecnológica
-      </a>
-      <a href="#estrutura" style="color: #8b5cf6; text-decoration: none; padding: 12px; background: rgba(139, 92, 246, 0.1); border-radius: 10px; transition: all 0.3s;"
-         onmouseover="this.style.background='rgba(139, 92, 246, 0.2)';this.style.transform='translateY(-3px)'"
-         onmouseout="this.style.background='rgba(139, 92, 246, 0.1)';this.style.transform='translateY(0)'">
-        📁 Estrutura
-      </a>
-      <a href="#instalacao" style="color: #f59e0b; text-decoration: none; padding: 12px; background: rgba(245, 158, 11, 0.1); border-radius: 10px; transition: all 0.3s;"
-         onmouseover="this.style.background='rgba(245, 158, 11, 0.2)';this.style.transform='translateY(-3px)'"
-         onmouseout="this.style.background='rgba(245, 158, 11, 0.1)';this.style.transform='translateY(0)'">
-        🛠️ Instalação
-      </a>
-    </div>
-  </div>
-
+<div align="center">
+<h1>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Movie%20Camera.png" width="40" alt="camera" />
+  GabeCO AudioVisual
+</h1>
+<p><strong>Corporate website for a real audiovisual production company — designed, built and deployed end-to-end</strong></p>
+<p>
+  <img src="https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&amp;logo=next.js&amp;logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&amp;logo=tailwind-css&amp;logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/EmailJS-FF6600?style=for-the-badge&amp;logo=mailgun&amp;logoColor=white" alt="EmailJS" />
+</p>
+<p>
+  <a href="https://SEU-LINK-PRODUCAO.vercel.app" target="_blank"><b>🌐 Live Website</b></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://github.com/gabedossa/GabeCO_AudioVisual" target="_blank"><b>📁 Repository</b></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://www.behance.net/gabrielvin73ec" target="_blank"><b>🎨 Design Process</b></a>
+</p>
+<br/>
+<img src="./public/preview.png" alt="GabeCO AudioVisual Website" width="900" style="border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.2);" />
+<p><em>Landing page — hero section with portfolio highlights and brand identity</em></p>
 </div>
-
-<!-- Funcionalidades -->
-<div id="funcionalidades" style="margin-top: 50px; padding: 40px 20px; background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border-radius: 20px;">
-  <h2 style="color: #f59e0b; font-size: 2.5rem; text-align: center; margin-bottom: 30px;">✨ Funcionalidades</h2>
-  
-  <!-- Páginas Principais -->
-  <div style="margin-bottom: 40px;">
-    <h3 style="color: #60a5fa; font-size: 1.8rem; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-      🎥 Páginas Principais
-    </h3>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
-      <div style="background: rgba(30, 41, 59, 0.8); padding: 20px; border-radius: 15px; border-left: 4px solid #60a5fa;">
-        <h4 style="color: #60a5fa; margin-bottom: 10px;">🏠 Home Page</h4>
-        <p style="color: #cbd5e1;">Apresentação da empresa e destaques do portfólio</p>
-      </div>
-      <div style="background: rgba(30, 41, 59, 0.8); padding: 20px; border-radius: 15px; border-left: 4px solid #8b5cf6;">
-        <h4 style="color: #8b5cf6; margin-bottom: 10px;">🎬 Portfólio</h4>
-        <p style="color: #cbd5e1;">Galeria interativa de filmes e produções musicais</p>
-      </div>
-      <div style="background: rgba(30, 41, 59, 0.8); padding: 20px; border-radius: 15px; border-left: 4px solid #10b981;">
-        <h4 style="color: #10b981; margin-bottom: 10px;">📞 Contato</h4>
-        <p style="color: #cbd5e1;">Formulário funcional com envio de e-mails integrado</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Recursos Técnicos -->
-  <div>
-    <h3 style="color: #f59e0b; font-size: 1.8rem; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-      🛠️ Recursos Técnicos
-    </h3>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
-      <div style="background: rgba(30, 41, 59, 0.8); padding: 15px; border-radius: 10px; display: flex; align-items: center; gap: 15px;">
-        <span style="color: #3b82f6; font-size: 1.5rem;">✅</span>
-        <div>
-          <strong style="color: #f1f5f9;">📱 Design Responsivo</strong>
-          <p style="color: #94a3b8; margin: 5px 0 0 0; font-size: 0.9rem;">Mobile-first, totalmente adaptável</p>
-        </div>
-      </div>
-      <div style="background: rgba(30, 41, 59, 0.8); padding: 15px; border-radius: 10px; display: flex; align-items: center; gap: 15px;">
-        <span style="color: #3b82f6; font-size: 1.5rem;">✅</span>
-        <div>
-          <strong style="color: #f1f5f9;">🖼️ Otimização de Imagens</strong>
-          <p style="color: #94a3b8; margin: 5px 0 0 0; font-size: 0.9rem;">Com Next.js Image</p>
-        </div>
-      </div>
-      <div style="background: rgba(30, 41, 59, 0.8); padding: 15px; border-radius: 10px; display: flex; align-items: center; gap: 15px;">
-        <span style="color: #3b82f6; font-size: 1.5rem;">✅</span>
-        <div>
-          <strong style="color: #f1f5f9;">📧 Formulário de Contato</strong>
-          <p style="color: #94a3b8; margin: 5px 0 0 0; font-size: 0.9rem;">Integração com EmailJS</p>
-        </div>
-      </div>
-    </div>
-  </div>
+<hr/>
+<h2>📋 Table of Contents</h2>
+<ul>
+  <li><a href="#about">About the Project</a></li>
+  <li><a href="#challenge">The Challenge</a></li>
+  <li><a href="#solution">The Solution</a></li>
+  <li><a href="#features">Features</a></li>
+  <li><a href="#pages">Pages</a></li>
+  <li><a href="#tech-stack">Tech Stack</a></li>
+  <li><a href="#process">Design Process</a></li>
+  <li><a href="#screenshots">Screenshots</a></li>
+  <li><a href="#what-i-learned">What I Learned</a></li>
+  <li><a href="#connect">Connect</a></li>
+</ul>
+<hr/>
+<h2 id="about">🎬 About the Project</h2>
+<p><strong>GabeCO AudioVisual</strong> is a corporate website built for a real audiovisual production company. The company produces films, music videos and commercial content, and needed a digital presence that reflected their creative work.</p>
+<p>This project showcases my ability to deliver a complete product: from understanding the client's needs and designing the interface to writing the code and deploying to production.</p>
+<hr/>
+<h2 id="challenge">🎯 The Challenge</h2>
+<p>The client needed:</p>
+<ul>
+  <li>A <strong>professional online presence</strong> to showcase their portfolio</li>
+  <li>A <strong>responsive website</strong> that works on all devices</li>
+  <li>A <strong>contact form</strong> for potential clients to reach out</li>
+  <li><strong>Fast loading times</strong> despite heavy image/video content</li>
+  <li>A <strong>modern, cinematic aesthetic</strong> aligned with their brand</li>
+</ul>
+<hr/>
+<h2 id="solution">💡 The Solution</h2>
+<p>I designed and developed a single-page application with:</p>
+<ul>
+  <li><strong>Cinematic hero section</strong> with high-impact visuals</li>
+  <li><strong>Interactive portfolio gallery</strong> showcasing films and music productions</li>
+  <li><strong>Functional contact form</strong> integrated with EmailJS for direct client inquiries</li>
+  <li><strong>Optimized media delivery</strong> using Next.js Image component for performance</li>
+  <li><strong>Mobile-first responsive design</strong> with Tailwind CSS</li>
+</ul>
+<hr/>
+<h2 id="features">✨ Features</h2>
+<table>
+  <tr>
+    <th>Feature</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>📱 <strong>Responsive Design</strong></td>
+    <td>Mobile-first approach, fully adaptable to all screen sizes</td>
+  </tr>
+  <tr>
+    <td>🖼️ <strong>Image Optimization</strong></td>
+    <td>Next.js <code>&lt;Image /&gt;</code> component for automatic resizing, lazy loading and WebP conversion</td>
+  </tr>
+  <tr>
+    <td>📧 <strong>Contact Form</strong></td>
+    <td>Functional form integrated with EmailJS for direct email delivery</td>
+  </tr>
+  <tr>
+    <td>🎨 <strong>Custom Design System</strong></td>
+    <td>Tailwind CSS with custom colors, typography and spacing tokens aligned with the brand</td>
+  </tr>
+  <tr>
+    <td>⚡ <strong>Fast Performance</strong></td>
+    <td>Next.js 14 App Router with Server Components for optimal loading</td>
+  </tr>
+  <tr>
+    <td>🔍 <strong>SEO Optimized</strong></td>
+    <td>Meta tags, Open Graph and semantic HTML for search engine visibility</td>
+  </tr>
+</table>
+<hr/>
+<h2 id="pages">📄 Pages</h2>
+<table>
+  <tr>
+    <th>Page</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>🏠 <strong>Home</strong></td>
+    <td>Company presentation, hero section with portfolio highlights and call-to-action</td>
+  </tr>
+  <tr>
+    <td>🎬 <strong>Portfolio</strong></td>
+    <td>Interactive gallery of films and music productions with filtering</td>
+  </tr>
+  <tr>
+    <td>📞 <strong>Contact</strong></td>
+    <td>Functional contact form with EmailJS integration and company information</td>
+  </tr>
+</table>
+<hr/>
+<h2 id="tech-stack">🛠 Tech Stack</h2>
+<h3>Core Technologies</h3>
+<table>
+  <tr>
+    <th>Technology</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+    <td><strong>Next.js 14</strong></td>
+    <td>React framework with App Router, SSR and SSG</td>
+  </tr>
+  <tr>
+    <td><strong>React 18</strong></td>
+    <td>UI library with concurrent features</td>
+  </tr>
+  <tr>
+    <td><strong>TypeScript</strong></td>
+    <td>Type-safe development</td>
+  </tr>
+  <tr>
+    <td><strong>Tailwind CSS 3.3</strong></td>
+    <td>Utility-first styling with custom design system</td>
+  </tr>
+</table>
+<h3>Services &amp; Tools</h3>
+<table>
+  <tr>
+    <th>Service</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+    <td><strong>EmailJS</strong></td>
+    <td>Client-side email sending without a back end</td>
+  </tr>
+  <tr>
+    <td><strong>Vercel</strong></td>
+    <td>Deployment and hosting with automatic CI/CD</td>
+  </tr>
+  <tr>
+    <td><strong>Figma</strong></td>
+    <td>UI/UX design and prototyping</td>
+  </tr>
+</table>
+<hr/>
+<h2 id="process">🎨 Design Process</h2>
+<p>As both designer and developer, I followed a complete workflow:</p>
+<ol>
+  <li><strong>Discovery</strong> — Understanding the client's brand, target audience and competitors</li>
+  <li><strong>Wireframing</strong> — Low-fidelity layouts to define information architecture</li>
+  <li><strong>Visual Design</strong> — High-fidelity mockups in Figma with brand-aligned aesthetics</li>
+  <li><strong>Development</strong> — Next.js + TypeScript + Tailwind CSS implementation</li>
+  <li><strong>Optimization</strong> — Image compression, lazy loading, SEO and performance tuning</li>
+  <li><strong>Deployment</strong> — Vercel deployment with custom domain configuration</li>
+  <li><strong>Handoff</strong> — Documentation and training for client self-management</li>
+</ol>
+<hr/>
+<h2 id="screenshots">📸 Screenshots</h2>
+<div align="center">
+<table>
+  <tr>
+    <th>Homepage</th>
+    <th>Portfolio</th>
+    <th>Contact</th>
+  </tr>
+  <tr>
+    <td><img src="./docs/screenshots/home.png" alt="Homepage" width="280"/></td>
+    <td><img src="./docs/screenshots/portfolio.png" alt="Portfolio" width="280"/></td>
+    <td><img src="./docs/screenshots/contact.png" alt="Contact" width="280"/></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>Mobile View</th>
+    <th>Tablet View</th>
+  </tr>
+  <tr>
+    <td><img src="./docs/screenshots/mobile.png" alt="Mobile" width="280"/></td>
+    <td><img src="./docs/screenshots/tablet.png" alt="Tablet" width="420"/></td>
+  </tr>
+</table>
 </div>
-
-<!-- Stack Tecnológica -->
-<div id="stack" style="margin-top: 50px; padding: 40px 20px; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); border-radius: 20px;">
-  <h2 style="color: #10b981; font-size: 2.5rem; text-align: center; margin-bottom: 30px;">🚀 Stack Tecnológica</h2>
-  
-  <!-- Core Technologies -->
-  <div style="margin-bottom: 40px;">
-    <h3 style="color: #f59e0b; font-size: 1.8rem; margin-bottom: 20px; text-align: center;">Core Technologies</h3>
-    <div align="center">
-      <div style="background: rgba(15, 23, 42, 0.8); padding: 30px; border-radius: 15px; display: inline-block;">
-        <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,vercel" 
-               style="height: 70px; transition: transform 0.3s;"
-               onmouseover="this.style.transform='scale(1.1)'"
-               onmouseout="this.style.transform='scale(1)'" />
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Development Stack -->
-  <div>
-    <h3 style="color: #60a5fa; font-size: 1.8rem; margin-bottom: 20px; text-align: center;">Development Stack</h3>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
-      <div style="background: rgba(30, 41, 59, 0.8); padding: 20px; border-radius: 15px;">
-        <h4 style="color: #f59e0b; margin-bottom: 10px;">Frontend Framework</h4>
-        <p style="color: #cbd5e1;">Next.js 14 with App Router</p>
-      </div>
-      <div style="background: rgba(30, 41, 59, 0.8); padding: 20px; border-radius: 15px;">
-        <h4 style="color: #60a5fa; margin-bottom: 10px;">UI Library</h4>
-        <p style="color: #cbd5e1;">React 18 with TypeScript</p>
-      </div>
-      <div style="background: rgba(30, 41, 59, 0.8); padding: 20px; border-radius: 15px;">
-        <h4 style="color: #10b981; margin-bottom: 10px;">Styling</h4>
-        <p style="color: #cbd5e1;">Tailwind CSS 3.3 with custom design system</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Rodapé -->
-<div style="margin-top: 50px; text-align: center; padding: 30px; background: rgba(15, 23, 42, 0.9); border-radius: 15px;">
-  <p style="color: #f1f5f9; font-size: 1.2rem; margin-bottom: 20px;">
-    <strong>Desenvolvido com ❤️ pela equipe GabeCO Audiovisual</strong>
-  </p>
-  <div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
-    <p style="color: #94a3b8; margin: 0;">
-      Visitas: 
-      <img src="https://komarev.com/ghpvc/?username=gabrielvitor&label=Profile%20views&color=0e75b6&style=flat" 
-           alt="gabrielvitor" 
-           style="vertical-align: middle; margin-left: 5px;" />
-    </p>
-    <a href="#" style="color: #60a5fa; text-decoration: none; padding: 8px 16px; background: rgba(96, 165, 250, 0.1); border-radius: 8px; transition: all 0.3s;"
-       onmouseover="this.style.background='rgba(96, 165, 250, 0.2)';this.style.transform='translateY(-2px)'"
-       onmouseout="this.style.background='rgba(96, 165, 250, 0.1)';this.style.transform='translateY(0)'">
-      ⬆ Voltar ao topo
-    </a>
-  </div>
-</div>
+<hr/>
+<h2 id="what-i-learned">🎯 What I Learned</h2>
+<ul>
+  <li><strong>Client communication</strong> — Managing expectations, feedback rounds and delivery timelines</li>
+  <li><strong>EmailJS integration</strong> — Setting up client-side email sending without a back-end server</li>
+  <li><strong>Media optimization</strong> — Balancing visual quality with performance on image-heavy sites</li>
+  <li><strong>Brand-aligned design</strong> — Creating a visual identity that reflects the client's creative work</li>
+  <li><strong>End-to-end delivery</strong> — From first meeting to deployed website and client handoff</li>
+</ul>
+<hr/>
+<h2 id="connect">📫 Connect</h2>
+<p>Built by <strong><a href="https://www.linkedin.com/in/gabrieldossa/">Gabriel Vitor</a></strong> — Full-Stack Developer &amp; UI Designer</p>
+<p>
+  <a href="https://www.linkedin.com/in/gabrieldossa/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.behance.net/gabrielvin73ec" target="_blank">
+    <img src="https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&amp;logo=behance&amp;logoColor=white" alt="Behance" />
+  </a>
+  <a href="mailto:gabrielvinces2@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" />
+  </a>
+</p>
+<hr/>
+<div align="center">
+<p><em>Found this project useful? Give it a ⭐ — it helps a lot!</em></p>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="35" alt="wave" />
